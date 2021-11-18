@@ -1,7 +1,6 @@
 import styles from "../styles/Home.module.css";
 
 export default function Home({ news }) {
-  console.log("hi");
   return (
     <>
       <h1 className={styles.title}>These are the newest entries:</h1>

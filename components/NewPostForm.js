@@ -17,7 +17,7 @@ const NewPostForm = () => {
   };
 
   const createPost = async (newPost) => {
-    await fetch("https://tutuitah.herokuapp.com/tuits", {
+    await fetch("https://isdi-blog-posts-api.herokuapp.com/posts", {
       method: "POST",
       body: JSON.stringify(newPost),
       headers: {
